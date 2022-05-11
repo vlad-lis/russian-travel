@@ -1,0 +1,10 @@
+.header__lang-link {
+    color: #FFFFFF;
+    width: 30px;
+    height: 28px;
+    margin-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+    margin: 0;
+}

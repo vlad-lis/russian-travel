@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="root">
+
+    <header class="header">
+        <img class="header__logo" src="./images/logo/__logo.svg" alt="лого">
+        <form class="header__form">
+            <fieldset class="header__lang-links">
+                <label class="header__lang-link" for="Ru">
+                    <input class="header__hidden-radio-circle" type="radio" name="Language" id="Ru" value="Ru" checked>
+                    <span>Ru</span>
+                </label>
+                <label class="header__lang-link" for="En">
+                    <input class="header__hidden-radio-circle" type="radio" name="Language" id="En" value="En">
+                    <span>En</span>
+                </label>
+            </fieldset>
+        </form>
+    </header>
+
+    <main>
+        <section class="lead-and-intro-container">
+            <arcticle class="lead">
+                <h1 class="lead__title">Путешествия по России</h1>
+                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+                <figure class="lead__image-container">
+                    <img class="lead__image" src="./images/lead-image.png" alt="Путешествия по России">
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                </figure>
+            </arcticle>
+            <article class="intro">
+                <div class="intro__contents">
+                    <h2 class="intro__title">Чего мы там не видели?</h2>
+                    <p class="intro__subtitle">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+                        планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
+                        Россия
+                        —
+                        это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана.
+                        А
+                        ещё
+                        увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
+                        Как,
+                        например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в
+                        свою
+                        «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
+                        интересные
+                        места,
+                        достойные вашего отпуска.</p>
+                    <ul class="intro__list">
+                        <li>
+                            <h4 class="intro__list-item">Часовых поясов 11</h4>
+                        </li>
+                        <li>
+                            <h4 class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</h4>
+                        </li>
+                        <li>
+                            <h4 class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</h4>
+                        </li>
+                        <li>
+                            <h4 class="intro__list-item">Природных заповедников 105</h4>
+                        </li>
+                        <li>
+                            <h4 class="intro__list-item">Аэропортов 241</h4>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
