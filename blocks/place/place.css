@@ -1,0 +1,15 @@
+.place {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: min-content 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-areas:
+        "title website"
+        "image paragraphs";
+    padding-bottom: 80px;
+}
+
+.place:last-of-type {
+    padding: 0;
+}
