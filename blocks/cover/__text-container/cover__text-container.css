@@ -13,6 +13,8 @@
     position: absolute;
     background-image: url("../../../images/cover-trains.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -25,4 +27,13 @@
 .cover__text-container:hover::after {
     opacity: .2;
     transition: opacity .4s ease-in;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__text-container {
+        min-height: 640px;
+    }
+    .cover__text-container::after {
+        background-size: 100%;
+    }
 }

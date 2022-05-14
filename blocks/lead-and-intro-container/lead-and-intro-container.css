@@ -1,0 +1,9 @@
+.lead-and-intro-container {
+    padding: 56px 148px 0 148px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .lead-and-intro-container {
+        padding: 48px 48px 0 48px;
+    }
+}

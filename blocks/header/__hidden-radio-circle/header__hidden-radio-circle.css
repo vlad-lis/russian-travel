@@ -8,3 +8,7 @@
 .header__hidden-radio-circle:checked + span {
     text-decoration: underline;
 }
+
+.header__hidden-radio-circle:hover + span {
+    cursor: pointer;
+}
