@@ -6,3 +6,7 @@
     text-decoration: none;
     padding-right: 18px;
 }
+
+.footer__link:hover {
+    opacity: .8;
+}
