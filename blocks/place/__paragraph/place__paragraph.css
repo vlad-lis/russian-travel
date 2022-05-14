@@ -3,10 +3,17 @@
     margin: 0;
     padding-bottom: 26px;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 29px;
     grid-area: paragraph;
 }
 
 .place__paragraph:last-of-type {
     padding: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }

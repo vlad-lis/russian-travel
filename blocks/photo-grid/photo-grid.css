@@ -15,3 +15,11 @@
         gap: 14px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid {
+        padding: 88px 24px 0 24px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}

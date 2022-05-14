@@ -34,6 +34,15 @@
         min-height: 640px;
     }
     .cover__text-container::after {
-        background-size: 100%;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__text-container {
+        min-height: 480px;
+    }
+    .cover__text-container::after {
+        background-size: 100% 100%;
     }
 }
