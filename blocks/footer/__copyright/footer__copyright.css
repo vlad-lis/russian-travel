@@ -5,3 +5,10 @@
     color: #FFFFFF;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        align-self: auto;
+        padding-top: 48px;
+    }
+}

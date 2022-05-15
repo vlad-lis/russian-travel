@@ -26,3 +26,17 @@
         padding-bottom: 73px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content 1fr;
+        grid-template-areas:
+            "title"
+            "website"
+            "image"
+            "paragraphs";
+        padding-bottom: 50px;
+        row-gap: 32px;
+    }
+}

@@ -46,3 +46,12 @@
         background-size: 100% 100%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .cover__text-container {
+        min-height: 200px;
+    }
+    .cover__text-container::after {
+        background-size: 100% 100%;
+    }
+}

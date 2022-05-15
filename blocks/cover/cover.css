@@ -13,3 +13,9 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .cover {
+        padding: 0;
+    }
+}
