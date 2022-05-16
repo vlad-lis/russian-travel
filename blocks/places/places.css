@@ -1,5 +1,5 @@
 .places {
-    padding: 127px 0 57px 0;
+    padding: 127px 148px 57px 148px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,13 +7,13 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places {
-        padding: 92px 0 92px 0;
+        padding: 92px 48px 92px 48px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places {
-        padding: 88px 0 90px 0;
+        padding: 88px 24px 90px 24px;
     }
 }
 
