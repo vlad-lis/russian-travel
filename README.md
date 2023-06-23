@@ -1,15 +1,16 @@
-# **Проект: Путешествие по России**
+# **Traveling in Russia**
 
-* [Ссылка на выложенный проект](https://ihidewhenitrains.github.io/russian-travel)
+The second HTML & CSS project in web-development course.  
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+The page is and made for resolutions:
+* below 767px
+* 768px to 1023px
+* 1024px to 1279px
+* 1280px and above
 
-_Сделана ~~попытка~~ ападтивная страница о путешествиях по России_
-_Медиа-запросы для разрешений:_
-- _до 767px;_
-- _от 768px до 1023px;_
-- _от 1024px до 1279px;_
-- _от 1280px и дальше;_
+View deployed page [here](https://vlad-lis.github.io/russian-travel/).  
+Initial Figma design [here](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=28503-0&mode=design).
 
-_Планы по доработке:_
-- _исправить печальное поведение высоты у блока cover на промежуточных разрешениях._
+## Run locally
+1. Clone repository
+2. Manually open index.html or open with live server in IDE.
