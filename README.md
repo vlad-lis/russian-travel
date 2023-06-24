@@ -3,7 +3,7 @@
 The second HTML & CSS project in web-development course.  
 
 The page is made for resolutions:
-* below 767px
+* 767px and below
 * 768px to 1023px
 * 1024px to 1279px
 * 1280px and above
